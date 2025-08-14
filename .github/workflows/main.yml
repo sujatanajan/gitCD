@@ -7,9 +7,9 @@ on:
 
 jobs:
   demo-commands:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
-   steps:
+    steps:
       - name: Show currunt working directory
         run: pwd
 
