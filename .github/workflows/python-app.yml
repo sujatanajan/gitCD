@@ -19,6 +19,6 @@ jobs:
         python-version: "3.10"
     - name: python python.py Run 
       run: python python.py
-    - name: python python.py Run2
-      run: python python.py
+    - name: python new1.py Run2
+      run: python new1.py
         
