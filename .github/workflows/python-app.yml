@@ -20,5 +20,5 @@ jobs:
     - name: python python.py Run 
       run: python python.py
     - name: python python.py Run2
-      run: python python.py
+      run: python new1.py
         
