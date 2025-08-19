@@ -1,0 +1,12 @@
+name: Basic Commands
+
+on:
+ workflow_dispatch:
+
+jobs:
+  demo-commands:
+   runs-on: ubuntu-latest
+
+   steps:
+    - name: Show current working directory
+      run: pwd
